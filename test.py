@@ -306,7 +306,7 @@ def add():
 
       count = 0
     #z = matcher.match("answer",name=answers[i],rank_id).first()
-      doc = nlp(answers[i].decode('utf'))
+      doc = nlp(answers[i])
       for tok in doc:
       #print(tok.text)
         if tok.text.lower()==entity_pairs[i].lower():
