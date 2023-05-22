@@ -1,7 +1,7 @@
 pandas==0.24.2
 numpy==1.16.5
 bs4==0.0.1
-requests==2.22.0
+requests==2.31.0
 spacy==2.2.3
 tqdm==4.39.0
 networkx
